@@ -1,0 +1,189 @@
+---
+title: "Data Science para Economía y Negocios - Clase 1"
+author: "Javier Fernández"
+date: "3/17/2020"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introducción
+
+```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics("pagina 1.png")
+```
+
+# "Llueven Datos"
+
+## Introducción
+
+Cumulus media (2017): En un minuto de internet…
+
+- 3.5 millones de búsquedas en google
+
+- 900.000 personas se conectan a Facebook
+
+- Se reproducen 4.1 millones de horas de videos en Youtube
+
+- Se envían 450.000 tweets 
+
+- Se reproducen 70.000 horas de contenido en Netflix
+
+- Se suben 46.200 fotos en instagram
+
+## Pero… ¿ más datos = más conocimiento?
+
+```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics("pagina2.png")
+```
+
+## ¿Qué es Data Science?
+
+Campo interdisiplinario que se encarga de extraer conocimiento de datos y generar análisis sobre estos
+
+- Matemáticas
+
+- Estadística
+
+- Ciencias de computación
+
+## ¿Qué es Data Science?
+
+"The ability to take data - to be able to understand it, to process it, to extract value from, to visualize it, to communicate it - that's going to be a hugely important skill in the next decades"
+
+<b>Hal Varian, Economista Jefe de Google y Académico de UC Berekeley (2009)</b>
+
+## ¿Qué es Data Science?
+
+```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics("pagina3.png")
+```
+
+## ¿Qué es Big Data?
+
+Datos que contienen una mayor <b>V</b>ariedad y que se presentan en <b>V</b>olúmenes crecientes y a una <b>V</b>elocidad superior (Gartnet,2001):
+
+- Volumen: Muchos!
+
+- Variedad: Datos estructurados - no estructurados
+
+- Velocidad: Tiempo real 
+
+## ¿Qué es Big Data?
+
+- Valor
+
+- Veracidad
+
+## ¿Por qué estudiar Data Science?
+
+```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics("pagina4.png")
+```
+
+## ¿Por qué estudiar Data Science?
+
+```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics("pagina5.png")
+```
+
+## ¿Por qué estudiar Data Science?
+
+```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics("pagina6.png")
+```
+
+## ¿Por qué estudiar Data Science?
+
+```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics("pagina7.png")
+```
+
+## En este curso...
+
+- Repasaremos los tópicos principales de los que se ocupa DS desde un enfoque <b>"Práctico"</b>
+
+- Utilizaremos el software de estadístico R como una <b>herramienta</b> para desarrollar nuestros fines. <b>El software nunca es el fin en si mismo!!</b>
+
+- Las clases se enfocarán en la resolución de problemas para el análisis económico y aplicaciones para los negocios
+
+## Objetivos del curso
+
+- Desarrollar la capacidad de conceptualización abstracta de estructura de datos y cómo estas se enlazan con metodologías para responder preguntas básicas que sirvan de apoyo a la toma de decisiones
+
+- Entender y aplicar la generación de información desde datos 'crudos'
+
+- Aprender a trabajar datos de manera ordenada y sistemática con el fin de lograr generar proyectos que sean reproductibles
+
+- Brindar a estudiantes una introducción al lenguaje estadístico R
+
+## Estructura del curso
+
+1. Natación 101 para DS
+
+    - Introducción a la programación en R y Manejo de Datos
+    
+2. Buscando la aguja en el pajar: Visualización de Datos
+
+3. Obsesivo de los Datos vs. Teórico conservador
+
+    - El dilema actual de un buen Científico de Datos
+
+## 1. Natación 101 para DS
+
+- Se entregan las primeras indicaciones y el contexto de este "mar de datos" que nos proponemos nadar
+
+- Se entregarán las herramientas básicas de programación en R para abordar los objetivos del curso:
+
+    - Introducción a paquetes y/o funciones para el análisis de datos
+    - Análisis y manipulación de los diferentes tipos de objetos en R
+    - Entender el nexo entre el manejo de base de datos y la solución de problemas de negocios y/o toma de decisiones
+
+## 2. Buscando la aguja en el pajar: Visualización de Datos
+
+- Veremos como a través de los datos podemos:
+
+    - Caracterizar clientes
+    - Segmentar demandas
+    - Identificar sujetos de política pública
+    - Etc.
+
+- Realizar análisis en términos exploratorios de forma visual para generar contexto, detectar problemas y posteriormente realizar alguna hipótesis de interés
+
+- Generar visualizaciones potentes que nos permitan captar la atención y mostrar dinámicas interesantes
+
+https://www.gapminder.org/tools
+
+
+## 3. Obsesivo de los Datos vs. Teórico conservador
+
+- Entender la discusión de los enfoques de DS: Desde el enfoque "Data driven" hasta la "vieja" teoría estadística
+
+- Técnicas y herramientas de DS y su utilidad en la economía y en los negocios
+
+- Pequeñísima introducción a ML:
+
+    - Aprendizaje Supervisado
+      - New is always better? Regresión lineal
+      - Validación cruzada
+    - Aprendizaje no Supervisado
+      - Análisis de Cluster
+
+## Una mirada del curso
+
+```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics("pagina8.png")
+```
+
+## Evaluación 
+
+```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics("pagina9.png")
+```
+
+# ¡Bienvenidos y Bienvenidas!
+
+
+
